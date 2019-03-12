@@ -1,0 +1,71 @@
+input.tabs {
+    display: none;
+}
+
+.center {
+    padding: 5vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+}
+
+.inputs{
+    padding: 2vw 0 0 0;
+    display: flex;
+}
+
+.inputs [type=text] {
+    padding: 12px;
+    width: 200px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-right: none; 
+    border: 1px solid rgb(224, 222, 222);
+    font-size: 12pt;
+}
+
+.inputs [type=text]:hover{
+    border: 1px solid black;
+}
+
+.inputs button{
+    padding: 10px;
+    width: 100px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 14pt;
+    font-weight: 500;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.video {
+    padding: 5vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        max-width: 640px;
+        position: relative;
+
+}
+
+audio{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px black;
+-webkit-box-shadow:  2px 2px 4px 0px #0c0c0c;
+box-shadow: 2px 2px 4px 0px #0a0a0a;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
+
+.espaco {
+    padding: 5vw;
+}
